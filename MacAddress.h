@@ -34,8 +34,8 @@
 		uint64_t	getIntAddress()const;
 		std::string getStringAddress();
 
-		uint32_t getLower();
-		uint32_t getHiger();
+		uint32_t getLower()const;
+		uint32_t getHiger()const;
 
 	};
 
